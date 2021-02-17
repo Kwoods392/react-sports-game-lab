@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
-import Game from "./Components/Game/Game";
-import ScoreBoard from "../src/Components/Scoreboard/Scoreboard";
-import Team from "../src/Components/Team2/Team";
+import Game from "./components/game/game";
+import ScoreBoard from "../src/components/Scoreboard/Scoreboard";
+import Team from "../src/components/Team/team";
 
 function App(props) {
   const raccoons = {

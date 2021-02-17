@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Team from "../Team/Team";
-import ScoreBoard from "../ScoreBoard/Scoreboard";
+import Team from "../Team/team";
+import ScoreBoard from "../Scoreboard/Scoreboard";
 
-class Game extends React.Component {
+class game extends React.Component {
   constructor(props) {
     super(props);
 
@@ -43,7 +43,7 @@ class Game extends React.Component {
     }));
   };
 
-  resetGame = () => {
+  resetgame = () => {
     this.setState((state, props) => ({
       resetCount: state.resetCount + 1,
       homeTeamStats: {
@@ -93,3 +93,4 @@ class Game extends React.Component {
     );
   }
 }
+export default game;
